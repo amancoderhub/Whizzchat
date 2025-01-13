@@ -14,11 +14,13 @@ import { createBrowserRouter } from 'react-router-dom';
  */
 import App from '../App.jsx';
 import Register from '../pages/Register.jsx';
+import Login from '../pages/Login.jsx';
 
 /**
  * Actions
  */
 import registerAction from './actions/registerAction.js';
+import loginAction from './actions/loginAction.js';
 
 /**
  * Crerate Router
@@ -33,6 +35,11 @@ const router = createBrowserRouter([
     element: <Register />,
     action: registerAction,
   },
+  {
+      path: '/login',
+      element: <Login />,
+      action:loginAction,
+    },
 ]);
 
 export default router;
