@@ -1,10 +1,8 @@
 /**
- * @copyright 2025 codewithsadee
+ * @copyright 2025 codewithaman
  * @license Apache-2.0
  */
-/**
- * Node Modules 
- */
+
 import { redirect } from "react-router-dom";
 
 /**

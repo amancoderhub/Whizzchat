@@ -6,7 +6,7 @@
 /**
  * Node Module
  */
-import { Client,Account } from 'appwrite';
+import { Client,Account,Avatars } from 'appwrite';
 /**
  * Initial Appwrite
  */
@@ -20,4 +20,9 @@ client.setProject(import.meta.env.VITE_APPWRITE_PROJECT_ID)
 const account = new Account(client);
 // const result = await account.get();
 
-export {account};
+/**
+ * Initial Appwrite avatars
+ */
+const avatars = new Avatars(client);
+
+export {account,avatars};
