@@ -527,22 +527,22 @@
     *Prompt field
     */
   .prompt-field-container {
-    --state-layer-bg: theme('colors.light.onSurfaceVariant');
-    @apply bg-light-surfaceContainer
-    dark:bg-dark-surfaceContainer 
-    min-h-16
-    rounded-full
-    flex
-    items-end
-    flex-wrap
-    p-2
-    cursor-text;
+    @apply min-h-16 
+         rounded-full 
+         flex 
+         items-end 
+         flex-wrap 
+         p-2 
+         cursor-text 
+         bg-light-surfaceContainer 
+         dark:bg-dark-surfaceContainer;
   }
 
-  @media (prefers-color-scheme: dark) {
+@media (prefers-color-scheme: light) {
     .prompt-field-container {
       --state-layer-bg: theme('colors.dark.onSurfaceVariant');
     }
+}
     .prompt-field {
       @apply text-light-onSurface 
       dark:text-dark-onSurface
@@ -630,7 +630,7 @@
        text-left
        whitespace-nowrap;
     }
-    .markdown-content table td{
+    .markdown-content table td {
       @apply text-bodyMedium
       py-3
       px-4
@@ -639,7 +639,7 @@
       border-light-surfaceContainerHigh
       dark:border-dark-surfaceContainerHigh;
     }
-    .markdown-content a{
+    .markdown-content a {
       @apply text-light-primary
       dark:text-dark-primary
       underline
@@ -655,7 +655,7 @@
       overflow-hidden;
     }
 
-    .markdown-content .code-block *{
+    .markdown-content .code-block * {
       @apply !bg-inherit;
     }
 
@@ -671,7 +671,7 @@
       rounded-extraSmall;
     }
   }
-}
+
 
 /**
 *UTILITIES
