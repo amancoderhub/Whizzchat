@@ -3,39 +3,27 @@ WhizzChat is an AI-powered chatbot built with the Gemini API, React.js, Node.js,
 
 To run a Vite + React.js project from a GitHub repository, follow these steps:
 1. Clone the Repository
-bash
-Copy
-Edit
-git clone <repository_url>
-cd <repository_folder>
+   git clone <repository_url>
+    cd <repository_folder>
+
 2. Install Dependencies
-bash
-Copy
-Edit
-npm install
+     npm install
+
 3. Start the Development Server
-bash
-Copy
-Edit
-npm run dev
-4. Open in Browser
-After running the command, Vite will provide a local development URL (e.g., http://localhost:5173/). Open it in your browser.
+     npm run dev
+   
+5. Open in Browser After running the command,
+   Vite will provide a local development
+   URL (e.g., http://localhost:5173/).
+   Open it in your browser.
 
-5. Build for Production (Optional)
+7. Build for Production (Optional)
 If you need to build the project for deployment, run:
-
-bash
-Copy
-Edit
-npm run build
+    npm run build
+   
 6. Preview the Production Build (Optional)
 To test the production build locally:
-
-bash
-Copy
-Edit
-npm run preview
-
+    npm run preview
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
